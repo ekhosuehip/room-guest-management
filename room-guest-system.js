@@ -86,12 +86,3 @@ class Guest {
        console.log(Guest.allBookedRooms)
     }
 }
-
-
-const john = new Guest("John", 25);
-console.log("Total Guests:", Guest.totalGuests);
-
-john.bookRoom("single");
-john.bookRoom("double");
-
-Guest.viewAllBookedRooms()
